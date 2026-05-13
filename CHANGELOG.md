@@ -13,6 +13,73 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Contributing guidelines
 - MIT License
 
+## [3.0.0] - 2026-05-13
+
+A **complete elevation pass** focusing on didactic quality, technical robustness,
+visual polish, and professional presentation. Every notebook was rebuilt from
+the ground up while preserving filenames and the overall curriculum order.
+
+### Added ✨
+- **Modern, modular structure** for every notebook: title block with module
+  badge, time estimate, difficulty, learning objectives, prerequisites,
+  intuition-first sections, applied example, exercises with full solutions,
+  key takeaways and self-assessment checklist.
+- **"Debug me 🐞" exercise** in every notebook — students learn to read and fix
+  broken code, which is a core skill the original course was missing.
+- **Detailed solutions** (collapsed in `<details>` HTML blocks) for every
+  exercise, explaining the *reasoning*, not just the code.
+- **Mini-projects** at the end of each notebook (compound interest, grade
+  analyser, dashboard, etc.) for integration practice.
+- **Conceptual diagrams** in markdown (figure/axes anatomy, broadcasting,
+  scope, split→apply→combine, ML workflow).
+- **NumPy notebook**: previously 6 cells, now a full lesson covering arrays,
+  shape, dtypes, indexing, slicing, vectorisation, broadcasting, axes,
+  reshape/stack/split, reproducible randomness, and an applied example.
+- **Matplotlib notebook**: previously 8 cells, now a structured tour through
+  the Figure/Axes model, line/scatter/bar/hist/box/heatmap charts,
+  subplots, annotations, and a debugging exercise.
+- **Pandas Preview notebook**: previously broken (referenced `df` without
+  defining it), now a coherent first DataFrame tutorial with reading from
+  CSV-strings, filtering, groupby, pivot_table, and a built-in `.plot()`
+  demonstration.
+- **Functions notebook**: previously 14 cells, now a full lesson covering
+  parameters, defaults, *args/**kwargs, scope, mutable-default pitfall,
+  docstrings, type hints, lambdas, imports, plus a modular data-cleaning
+  example.
+- **Capstone project**: now a true end-to-end story (data → EDA → dashboard
+  → regression → executive summary) demonstrating Simpson\'s paradox via
+  per-city slopes.
+- **Random seeds** everywhere for reproducibility (`np.random.default_rng(42)`).
+- **Colab-friendly setup** in every notebook.
+
+### Fixed 🐛
+- **Notebook 9 used the deprecated `load_boston`** dataset, which was removed
+  from scikit-learn ≥ 1.2 — replaced with `fetch_california_housing`.
+- **Notebook 5 referenced `df` without defining a DataFrame** — fully fixed.
+- **Notebook 6** title mismatch ("Notebook 5") corrected.
+- **Notebook 7** title mismatch ("Notebook 6") corrected.
+- **Notebook 8** had **cells out of order** and duplicated imports — rebuilt
+  with a logical teaching arc.
+- All notebooks now **execute top-to-bottom** in a fresh kernel without
+  errors (verified with `nbclient`).
+- Updated **scikit-learn API usage** (`fit/predict/score`, `Pipeline`,
+  `StandardScaler`, `GridSearchCV`, `train_test_split(stratify=)`).
+
+### Changed 🔄
+- README rewritten for clarity and professional presentation, with a
+  module-grouped table of contents, learning-path diagram, dependency table,
+  and troubleshooting section.
+- `requirements.txt` modernised: bumped to `numpy ≥ 1.24`, `pandas ≥ 2.0`,
+  `matplotlib ≥ 3.7`, `scikit-learn ≥ 1.3`; removed dev tools.
+- Notebook kernel metadata cleaned up; output cells stripped for clean
+  diffs.
+- Uniform plot styling (matched palette, removed top/right spines, light
+  grid) across every chart in the course.
+
+### Removed 🗑️
+- `plotly` removed from the main dependency list (kept as optional).
+- `black` and `flake8` moved to `requirements-dev.txt` only.
+
 ## [2.0.0] - 2024-12-19
 
 ### Added ✨
@@ -97,6 +164,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Release Date | Major Changes |
 |---------|-------------|---------------|
+| 3.0.0   | 2026-05-13  | Full educational rewrite: didactic restructuring, every notebook rebuilt, bug fixes, modern sklearn, polished visuals, complete solutions |
 | 2.0.0   | 2024-12-19  | Complete restructure, enhanced content, professional documentation |
 | 1.0.0   | 2024-01-01  | Initial release with core curriculum |
 

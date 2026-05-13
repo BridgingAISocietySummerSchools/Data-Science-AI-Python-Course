@@ -1,160 +1,245 @@
 # Learn Python: A Course Designed Specifically for Data Science and AI
 
-[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)](https://python.org)
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://python.org)
 [![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange)](https://jupyter.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Course Duration](https://img.shields.io/badge/duration-3%20hours-brightgreen)](#course-overview)
-[![Difficulty](https://img.shields.io/badge/difficulty-beginner-success)](#getting-started)
-[![Data Science](https://img.shields.io/badge/focus-data%20science-blueviolet)](#what-makes-this-course-different)
+[![Difficulty](https://img.shields.io/badge/level-beginner%20%E2%86%92%20intermediate-success)](#course-overview)
+[![Focus](https://img.shields.io/badge/focus-data%20science%20%26%20ML-blueviolet)](#what-makes-this-course-different)
 
-*From "What's Python?" to analyzing real datasets in just 3 hours*
-
-## 🚀 Start Learning Now - No Setup Required!
-
-**Click any notebook below to open it directly in Google Colab:**
-
-#### **Module 1: Python Fundamentals**
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/01_python_basics.ipynb) **Notebook 1: Python Basics** (20 min)
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_control_structures.ipynb) **Notebook 2: Control Structures** (25 min)
-
-#### **Module 2: Data Structures**
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/03_lists_data_structures.ipynb) **Notebook 3: Lists and Data Structures** (25 min)
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/04_dictionaries_advanced.ipynb) **Notebook 4: Dictionaries** (25 min)
-
-#### **Module 3: Data Science Libraries**
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/05_pandas_preview.ipynb) **Notebook 5: Pandas Preview** (15 min)
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/06_functions_modules.ipynb) **Notebook 6: Functions and Modules** (20 min)
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/07_numpy_fundamentals.ipynb) **Notebook 7: NumPy Fundamentals** (25 min)
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/08_matplotlib_basics.ipynb) **Notebook 8: Matplotlib Basics** (25 min)
-
-#### **Module 4: Machine Learning**
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/09_scikit_learn_basics.ipynb) **Notebook 9: Scikit-Learn Basics** (45 min)
-
-#### **Capstone Project**
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/10_capstone_project.ipynb) **Notebook 10: Weather Data Analysis** (45-60 min)
-
-> **💡 Pro Tip:** Google Colab provides a free Python environment with many data science libraries pre-installed!
+> **A polished, 10-notebook university-quality introduction to Python for Data Science and Machine Learning.**
+> From *"What's a variable?"* to building, evaluating, and interpreting your own ML models in scikit-learn.
 
 ---
 
-## Course Overview
+## 🚀 Quick start — open any notebook in Google Colab
 
-This comprehensive course bridges the gap between complete programming beginners and functional data science practitioners. Unlike typical Python courses that teach theoretical concepts, every lesson directly prepares you for real data science work.
+Click any badge below to launch the notebook in Colab with **zero setup** — no install, no Python, no terminal. Just a Google account.
 
-**Duration:** 4+ hours | **Prerequisites:** None | **Goal:** Master Python fundamentals and build your first ML models
+### 🧱 Module 1 — Python Fundamentals
 
-### What Makes This Course Different?
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/01_python_basics.ipynb) **Notebook 1 — Python Basics** *(25–30 min)*
+  Variables, data types, arithmetic, strings, f-strings, a first applied calculation.
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_control_structures.ipynb) **Notebook 2 — Control Structures** *(30–35 min)*
+  `if / elif / else`, `for`, `while`, `break / continue`, `try / except`.
 
-**🎯 Data Science Focused** - Every concept connects to real workflows: list slicing (`X[0:3]`) for ML, NumPy operations, and string formatting for analysis reports.
+### 📦 Module 2 — Data Structures
 
-**📊 Real-World Context** - Calculate financial interest, analyze weather data, and work with realistic datasets instead of theoretical examples.
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/03_lists_data_structures.ipynb) **Notebook 3 — Lists and Sequences** *(30–35 min)*
+  Indexing, slicing, list comprehensions, tuples, strings as sequences, nested lists.
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/04_dictionaries_advanced.ipynb) **Notebook 4 — Dictionaries** *(30–35 min)*
+  Key-value lookup, nested dicts, list of dicts, counting / grouping, JSON.
 
-**🏗️ Progressive Building** - Each notebook builds on the previous one with concepts introduced when needed.
+### 🧰 Module 3 — Data Science Libraries
 
-## Learning Objectives
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/05_pandas_preview.ipynb) **Notebook 5 — Pandas Preview** *(25–30 min)*
+  Series, DataFrames, indexing with `loc` / `iloc`, filtering, `groupby`.
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/06_functions_modules.ipynb) **Notebook 6 — Functions and Modules** *(30–35 min)*
+  Parameters, defaults, `*args` / `**kwargs`, scope, docstrings, type hints, imports.
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/07_numpy_fundamentals.ipynb) **Notebook 7 — NumPy Fundamentals** *(30–40 min)*
+  Arrays, vectorisation, broadcasting, axes, reproducible randomness.
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/08_matplotlib_basics.ipynb) **Notebook 8 — Matplotlib Basics** *(35–45 min)*
+  Figure / Axes model, line / bar / scatter / hist / box / heatmap, subplots, annotations.
 
-Master these essential data science skills:
-- **Core Python**: Variables, data structures, control flow, functions
-- **Data Science Libraries**: NumPy arrays, Matplotlib visualization, Pandas basics  
-- **Machine Learning**: Build classification and regression models with scikit-learn
-- **Real Application**: Read ML notebooks, debug code, solve data problems
+### 🤖 Module 4 — Machine Learning
 
-## Getting Started
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/09_scikit_learn_basics.ipynb) **Notebook 9 — Scikit-Learn Basics** *(60–75 min)*
+  Train/test split, classification + regression, pipelines, metrics, `GridSearchCV`, feature importance.
 
-**Prerequisites:** None! Perfect for business professionals, researchers, students, or anyone curious about data science.
+### 🏆 Capstone
 
-**Time Investment:** 3 hours core learning + 2-3 hours practice
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/10_capstone_project.ipynb) **Notebook 10 — Capstone: Weather Data Analysis** *(60–90 min)*
+  Full end-to-end project: data, EDA, dashboard, regression, executive summary.
 
-### 🛠️ Local Setup (Optional)
+> 💡 **Pro tip.** Google Colab provides a free Python environment with all course libraries (NumPy, pandas, matplotlib, scikit-learn) pre-installed.
 
-For local development, clone the repository and run:
+**Total time:** ~6 hours of focused learning, plus 2–4 hours of practice.
+
+---
+
+## 🎯 Who this course is for
+
+This course is designed for **complete beginners** who want to use Python specifically for data science, machine learning, and analytical work — not generic application development.
+
+**You will benefit if you are:**
+
+- A business professional who wants to move from spreadsheets to code.
+- A student in a quantitative field (statistics, economics, biology, physics, social science).
+- A researcher who wants to script analyses instead of clicking through dropdowns.
+- A career-switcher targeting data analyst / data scientist / ML engineer roles.
+- A developer in another stack adding "data" to your skillset.
+
+**Prerequisites:** none. A laptop, a browser, and curiosity are enough.
+
+## 🌟 What makes this course different?
+
+**🎯 Data-science focused from day one.** Every concept connects to real workflows. List slicing is taught as `X[0:3]` — the same syntax you'll see in scikit-learn. Dictionaries are taught as JSON-shaped records you'll meet in every API.
+
+**🧠 Intuition before syntax.** Each section opens with *why* a concept matters before showing *how* it works. Analogies, diagrams, mental models — not just code.
+
+**🛠️ Real-world, not toy.** Financial calculations, weather analysis, customer data, machine-learning pipelines — examples that mirror what data scientists actually do.
+
+**🧩 Modular & progressive.** Notebooks build on each other. By Notebook 7 you're vectorising in NumPy; by Notebook 9 you're training random forests with cross-validation; by Notebook 10 you're shipping a small end-to-end project.
+
+**💡 Exercises with full solutions.** Every notebook has 5+ exercises, including a *"Debug me 🐞"* — and every exercise has a detailed solution that explains the *reasoning*, not just the code.
+
+**📊 Polished visuals.** Charts are clean, professionally styled, and chosen for didactic value.
+
+## 📚 Learning objectives
+
+By the end of this course you will be able to:
+
+- Write clean Python code with appropriate data structures, control flow, and functions.
+- Manipulate tabular data with **pandas** and numerical data with **NumPy**.
+- Build clear, publication-quality visualisations with **matplotlib**.
+- Train, evaluate, and interpret **classification and regression models** in scikit-learn.
+- Apply the full ML workflow — split, fit, evaluate, tune — without making the classic beginner mistakes.
+- Communicate findings via a short executive summary and a 2×2 dashboard.
+
+## ▶️ Getting started
+
+### Option A — Google Colab (recommended, 0 setup)
+
+Click any of the **Open in Colab** badges above. Sign in with a Google account. That's it.
+
+### Option B — Run locally
+
+If you'd rather have a local environment:
 
 ```bash
-# Quick setup script
+# clone the repo
+git clone https://github.com/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course.git
+cd Data-Science-AI-Python-Course
+
+# either: one-shot setup script
 ./setup.sh
 
-# Or manually:
+# or: manual venv
 python3 -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate          # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 jupyter notebook
 ```
 
 Start with `01_python_basics.ipynb` and work through in order.
 
-## Course Files
+## 🗂️ Repository layout
 
 ```
 📁 Data-Science-AI-Python-Course/
-├── 📓 01_python_basics.ipynb          # Variables, data types, financial calculations
-├── 📓 02_control_structures.ipynb     # Conditionals, loops, temperature analysis  
-├── 📓 03_lists_data_structures.ipynb  # Lists, indexing, data manipulation
-├── 📓 04_dictionaries_advanced.ipynb  # Dictionaries, nested structures, APIs
-├── 📓 05_pandas_preview.ipynb         # First taste of data science ecosystem
-├── 📓 06_functions_modules.ipynb      # Clean, reusable code practices
-├── 📓 07_numpy_fundamentals.ipynb     # Numerical computing, ML foundations
-├── 📓 08_matplotlib_basics.ipynb     # Professional data visualization
-├── 📓 09_capstone_project.ipynb      # Comprehensive weather analysis
-├── � 10_scikit_learn_basics.ipynb   # Machine learning with scikit-learn
-├── �📄 requirements.txt               # Python package dependencies
-└── 🛠️ setup.sh                       # Automated environment setup
+├── 📓 01_python_basics.ipynb          # Variables, types, arithmetic, f-strings
+├── 📓 02_control_structures.ipynb     # if/elif/else, loops, try/except
+├── 📓 03_lists_data_structures.ipynb  # Lists, indexing, slicing, comprehensions
+├── 📓 04_dictionaries_advanced.ipynb  # Dictionaries, nested data, JSON
+├── 📓 05_pandas_preview.ipynb         # DataFrames, groupby, plotting
+├── 📓 06_functions_modules.ipynb      # Functions, defaults, scope, imports
+├── 📓 07_numpy_fundamentals.ipynb     # Arrays, vectorisation, broadcasting
+├── 📓 08_matplotlib_basics.ipynb      # Professional plotting
+├── 📓 09_scikit_learn_basics.ipynb    # Classification + regression
+├── 📓 10_capstone_project.ipynb       # End-to-end weather analysis
+├── 📄 README.md                       # ← you are here
+├── 📄 Python Data Science Cheat Sheet.md  # Quick syntax reference
+├── 📄 CHANGELOG.md                    # Version history
+├── 📄 CONTRIBUTING.md                 # How to contribute
+├── 📄 requirements.txt                # Python dependencies
+├── 📄 requirements-dev.txt            # Dev-only dependencies
+└── 🛠️ setup.sh                        # One-shot local setup
 ```
 
-## What's Next?
+## 🧭 Suggested learning path
 
-After completing this course, you'll be ready to:
-- Build advanced ML models and tune hyperparameters
-- Work with deep learning frameworks (TensorFlow, PyTorch)
-- Handle real-world data challenges and preprocessing
-- Deploy models to production environments
+The notebooks are designed to be done **in order**. Each notebook assumes you've internalised the previous ones.
 
-## Quick Troubleshooting
-
-**Common fixes:**
-```bash
-# Jupyter won't start
-pip install --upgrade jupyter
-
-# Import errors  
-pip install -r requirements.txt
-
-# Virtual environment issues
-rm -rf venv && python3 -m venv venv && source venv/bin/activate
+```
+                                Recommended order
+   1 ──► 2 ──► 3 ──► 4 ──► 5 ──► 6 ──► 7 ──► 8 ──► 9 ──► 10
+   │     │     │     │     │     │     │     │     │     │
+   │     │     │     │     │     │     │     │     │     └─ 🏆 Capstone
+   │     │     │     │     │     │     │     │     └─────── ML models
+   │     │     │     │     │     │     │     └─────────── Visualisation
+   │     │     │     │     │     │     └─────────────── NumPy arrays
+   │     │     │     │     │     └─────────────────── Functions / modules
+   │     │     │     │     └─────────────────────── First pandas
+   │     │     │     └─────────────────────────── Dictionaries / JSON
+   │     │     └─────────────────────────────── Lists & slicing
+   │     └─────────────────────────────────── Decisions & loops
+   └──────────────────────────────────── Python fundamentals
 ```
 
-## Resources & Support
+A typical schedule:
 
-- 📘 [Official Python Tutorial](https://docs.python.org/3/tutorial/)
-- 🔢 [NumPy Documentation](https://numpy.org/doc/) 
-- 📊 [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/)
-- 🐼 [Pandas Getting Started](https://pandas.pydata.org/getting_started.html)
-- 🏆 [Kaggle Learn](https://www.kaggle.com/learn) - Free data science courses
+| Pace                | Plan                                                      |
+|---------------------|-----------------------------------------------------------|
+| 1 hour / day        | 1 notebook per day → done in ~2 weeks                     |
+| 3 hours / weekend   | 3 notebooks per weekend → done in ~3 weekends             |
+| Bootcamp weekend    | All 10 in 2 days (~6 hours pure + breaks)                 |
 
-📚 **Related Reading:** [Learn Python for Data Science](https://medium.com/@christoph.j.weisser28/learn-python-a-course-designed-specifically-for-data-science-and-ai-f5a3ed1de719)
+## 🧪 What's inside each notebook?
+
+Every notebook follows the same modern structure:
+
+1. **Header** — module, time estimate, learning objectives, prerequisites.
+2. **Sections** with intuition first, then code, then a brief reflection on the output.
+3. **Small examples → larger applied examples → exercises**.
+4. **5 + practice exercises** including at least one *"Debug me 🐞"*.
+5. **Complete solutions** with explanations (collapsed in `<details>`).
+6. **Key takeaways** + **self-assessment checklist** + **next-step pointer**.
+
+## 🧯 Troubleshooting
+
+**Imports fail in Colab.** Almost never happens — Colab has the full stack. If it does, run `!pip install <package>` in a fresh cell.
+
+**Matplotlib plots don't show locally.** Make sure you're running a Jupyter notebook (not a `.py` file). In some setups you may need `%matplotlib inline` in the first cell.
+
+**Jupyter won't start locally.** `pip install --upgrade jupyter` usually fixes it. Fresh venv: `rm -rf venv && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt`.
+
+**scikit-learn `load_boston` errors.** It was removed in scikit-learn 1.2 — Notebook 9 uses the **California Housing** dataset instead.
+
+## 📦 Dependencies
+
+The full list lives in [`requirements.txt`](requirements.txt). The pinned core:
+
+- `numpy ≥ 1.24`
+- `pandas ≥ 2.0`
+- `matplotlib ≥ 3.7`
+- `scikit-learn ≥ 1.3`
+- `scipy ≥ 1.10`
+- `seaborn ≥ 0.12`  (optional, used briefly)
+- `jupyter ≥ 1.0`
+
+Python **3.10 or newer** is recommended (we use PEP 604 union types).
+
+## 📚 Further reading
+
+- 📘 [Official Python tutorial](https://docs.python.org/3/tutorial/)
+- 🔢 [NumPy user guide](https://numpy.org/doc/stable/user/)
+- 🐼 [Pandas getting-started](https://pandas.pydata.org/getting_started.html)
+- 📊 [Matplotlib tutorials](https://matplotlib.org/stable/tutorials/)
+- 🤖 [Scikit-learn user guide](https://scikit-learn.org/stable/user_guide.html)
+- 🏆 [Kaggle Learn](https://www.kaggle.com/learn) — free, project-based DS courses
+- 📖 [Hands-On Machine Learning](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/) — A. Géron, the gold-standard book
+
+📰 **Related reading:** [Learn Python for Data Science](https://medium.com/@christoph.j.weisser28/learn-python-a-course-designed-specifically-for-data-science-and-ai-f5a3ed1de719)
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions! Check [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines. Found a typo, a bug, or a clearer way to explain something? Open an issue or a PR.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT — see [LICENSE](LICENSE).
 
 ---
 
-*Remember: Every expert was once a beginner. The only difference is they started.*
+*Every expert was once a beginner. The only difference is they started.*
 
-**What will you build with your data science skills? 🚀**
-
----
+**Welcome — and have fun. What will you build with your data-science skills? 🚀**
 
 <div align="center">
 
-**Made with ❤️ for the Data Science Community**
+**Made with ❤️ for the Data Science community**
 
-[⬆ Back to Top](#learn-python-a-course-designed-specifically-for-data-science-and-ai)
+[⬆ Back to top](#learn-python-a-course-designed-specifically-for-data-science-and-ai)
 
 </div>
-
