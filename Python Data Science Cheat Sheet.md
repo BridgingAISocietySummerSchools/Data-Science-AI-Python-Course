@@ -1,6 +1,6 @@
-# Python for Data Science - Quick Reference Cheat Sheet
+# Python for Data Science Workshop — Quick Reference Cheat Sheet
 
-> Quick syntax reference for both tracks of the course. If you are looking for the
+> Quick syntax reference for both tracks of the workshop. If you are looking for the
 > teaching material itself: [Track 1 — Introduction Session](01_introduction/) ·
 > [Track 2 — Advanced & Self-Learning](02_advanced_self_learning/).
 
@@ -81,8 +81,8 @@ df.drop_duplicates(subset=['column1'])  # Based on specific column
 # Handle missing values
 df.dropna(axis=0)          # Drop rows with any null
 df.dropna(axis=1)          # Drop columns with any null
-df.fillna(method='ffill')  # Forward fill
-df.fillna(df.mean())       # Fill with column mean
+df.ffill()                 # Forward fill (fillna(method=...) is deprecated)
+df.fillna(df.mean(numeric_only=True))  # Fill with column mean
 
 # Data type conversion
 df['column'] = df['column'].astype('int64')
@@ -119,18 +119,13 @@ df['column'].hist()                # Histogram
 df['column'].plot(kind='box')      # Box plot
 df.plot(x='col1', y='col2', kind='scatter')  # Scatter plot
 
-# Matplotlib basics
-plt.figure(figsize=(10, 6))
-plt.plot(df['x'], df['y'])
-plt.xlabel('X Label')
-plt.ylabel('Y Label')
-plt.title('Title')
+# Matplotlib — the Figure/Axes style the workshop teaches (notebook 9)
+fig, ax = plt.subplots(figsize=(10, 6))
+ax.plot(df['x'], df['y'], color=BAS_BLUE)
+ax.set_xlabel('X Label')
+ax.set_ylabel('Y Label')
+ax.set_title('What the reader should take away')
 plt.show()
-
-# Seaborn basics
-sns.histplot(data=df, x='column')
-sns.boxplot(data=df, x='category', y='value')
-sns.scatterplot(data=df, x='col1', y='col2', hue='category')
 ```
 
 ### 9. Statistical Analysis

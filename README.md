@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/BridgingAISocietySummerSchools/.github/main/assets/logo-lockup.svg" alt="Bridging AI & Society Summer Schools" width="360">
 </picture>
 
-# Learn Python: A Course Designed for Data Science and AI
+# Python for Data Science Workshop
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-416bcc)](https://python.org)
 [![Jupyter](https://img.shields.io/badge/jupyter-notebook-416bcc)](https://jupyter.org)
@@ -11,7 +11,7 @@
 [![Difficulty](https://img.shields.io/badge/level-beginner%20%E2%86%92%20intermediate-416bcc)](#%EF%B8%8F-course-structure-two-tracks)
 [![Summer School](https://img.shields.io/badge/Bridging%20AI%20%26%20Society-Summer%20Schools-1c2025)](https://bridgingaiandsociety.org)
 
-> **The official Python course of the [Bridging AI & Society Summer Schools](https://bridgingaiandsociety.org).**
+> **The official Python workshop of the [Bridging AI & Society Summer Schools](https://bridgingaiandsociety.org).**
 > A **90-minute live introduction** that gives everyone a common foundation, and a **14-notebook self-learning track** that takes you from *"What's a variable?"* all the way to machine learning and your first neural network.
 
 ---
@@ -45,11 +45,11 @@ Five short notebooks, ~75 minutes of content plus ~15 minutes of questions and d
 
 | # | Notebook | Time | Covers |
 |---|----------|------|--------|
-| 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/01_introduction/01_welcome_to_python.ipynb) **Welcome to Python** | ~15 min | What Python is and why it matters for Data Science & AI; notebooks; basic syntax; variables; data types; arithmetic; f-strings |
-| 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/01_introduction/02_data_structures.ipynb) **Data Structures** | ~18 min | Lists, tuples/sequences, dictionaries — what each is for and basic operations |
-| 3 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/01_introduction/03_control_flow.ipynb) **Control Flow** | ~12 min | `if / elif / else`, `for` loops, `while` loops — short and conceptual |
-| 4 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/01_introduction/04_functions.ipynb) **Functions** | ~12 min | What functions are, defining and calling, parameters, return values, structuring code |
-| 5 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/01_introduction/05_pandas_intro.ipynb) **First Steps with Pandas** | ~18 min | DataFrames, loading tabular data, inspection, selecting/filtering, simple manipulation, a first chart |
+| 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/01_introduction/01_welcome_to_python.ipynb) **Welcome to Python** | ~15 min | What Python is and why it matters for Data Science & AI; notebooks; basic syntax; variables; data types; arithmetic; f-strings |
+| 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/01_introduction/02_data_structures.ipynb) **Data Structures** | ~18 min | Lists, tuples/sequences, dictionaries — what each is for and basic operations |
+| 3 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/01_introduction/03_control_flow.ipynb) **Control Flow** | ~12 min | `if / elif / else`, `for` loops, `while` loops — short and conceptual |
+| 4 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/01_introduction/04_functions.ipynb) **Functions** | ~12 min | What functions are, defining and calling, parameters, return values, structuring code |
+| 5 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/01_introduction/05_pandas_intro.ipynb) **First Steps with Pandas** | ~18 min | DataFrames, loading tabular data, inspection, selecting/filtering, simple manipulation, a first chart |
 
 👉 Session plan with timings and instructor notes: [`01_introduction/README.md`](01_introduction/README.md)
 
@@ -61,35 +61,35 @@ Fourteen notebooks that build directly on Track 1 and go substantially deeper.
 
 | # | Notebook | Time |
 |---|----------|------|
-| 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/01_python_basics.ipynb) **Python Basics** — types, conversion pitfalls, rounding, float precision | 30–35 min |
-| 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/02_control_structures.ipynb) **Control Structures** — loops in depth, convergence, `break/continue`, `try/except` | 35–40 min |
-| 3 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/03_lists_data_structures.ipynb) **Lists and Sequences** — slicing, comprehensions, `zip`, tuples, aliasing | 30–40 min |
-| 4 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/04_dictionaries_advanced.ipynb) **Dictionaries and Nested Data** — nested structures, counting, JSON | 30–35 min |
-| 5 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/05_functions_and_modules.ipynb) **Functions and Modules** — `return` vs `print`, `*args`/`**kwargs`, scope, imports | 35–40 min |
+| 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/01_python_basics.ipynb) **Python Basics** — types, conversion pitfalls, rounding, float precision | 30–35 min |
+| 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/02_control_structures.ipynb) **Control Structures** — loops in depth, convergence, `break/continue`, `try/except` | 35–40 min |
+| 3 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/03_lists_data_structures.ipynb) **Lists and Sequences** — slicing, comprehensions, `zip`, tuples, aliasing | 30–40 min |
+| 4 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/04_dictionaries_advanced.ipynb) **Dictionaries and Nested Data** — nested structures, counting, JSON | 30–35 min |
+| 5 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/05_functions_and_modules.ipynb) **Functions and Modules** — `return` vs `print`, `*args`/`**kwargs`, scope, imports | 35–40 min |
 
 **🧰 Data Science Toolkit**
 
 | # | Notebook | Time |
 |---|----------|------|
-| 6 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/06_numpy_fundamentals.ipynb) **NumPy Fundamentals** — arrays, vectorisation, broadcasting, axes | 30–40 min |
-| 7 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/07_pandas_essentials.ipynb) **Pandas Essentials** — `loc`/`iloc`, boolean masks, `groupby` | 30–40 min |
-| 8 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/08_data_cleaning_preprocessing.ipynb) **Data Cleaning and Preprocessing** — missing values, dtypes, duplicates, outliers, scaling, encoding | 45–55 min |
-| 9 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/09_visualization_matplotlib.ipynb) **Visualisation with Matplotlib** — Figure/Axes, choosing the right chart, subplots | 35–45 min |
-| 10 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/10_exploratory_data_analysis.ipynb) **Exploratory Data Analysis** — the EDA workflow on a real dataset | 50–60 min |
+| 6 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/06_numpy_fundamentals.ipynb) **NumPy Fundamentals** — arrays, vectorisation, broadcasting, axes | 30–40 min |
+| 7 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/07_pandas_essentials.ipynb) **Pandas Essentials** — `loc`/`iloc`, boolean masks, `groupby` | 30–40 min |
+| 8 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/08_data_cleaning_preprocessing.ipynb) **Data Cleaning and Preprocessing** — missing values, dtypes, duplicates, outliers, scaling, encoding | 45–55 min |
+| 9 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/09_visualization_matplotlib.ipynb) **Visualisation with Matplotlib** — Figure/Axes, choosing the right chart, subplots | 35–45 min |
+| 10 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/10_exploratory_data_analysis.ipynb) **Exploratory Data Analysis** — the EDA workflow on a real dataset | 50–60 min |
 
 **🤖 Machine Learning & Deep Learning**
 
 | # | Notebook | Time |
 |---|----------|------|
-| 11 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/11_machine_learning_basics.ipynb) **Machine Learning Basics** — supervised vs unsupervised, features/target, train/test, evaluation, overfitting | 45–55 min |
-| 12 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/12_scikit_learn_workflow.ipynb) **The Scikit-Learn Workflow** — classification, regression, pipelines, `GridSearchCV` | 60–75 min |
-| 13 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/13_pytorch_basics.ipynb) **PyTorch Basics** — tensors, autograd, a small neural network, the training loop | 45–55 min |
+| 11 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/11_machine_learning_basics.ipynb) **Machine Learning Basics** — supervised vs unsupervised, features/target, train/test, evaluation, overfitting | 45–55 min |
+| 12 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/12_scikit_learn_workflow.ipynb) **The Scikit-Learn Workflow** — classification, regression, pipelines, `GridSearchCV` | 60–75 min |
+| 13 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/13_pytorch_basics.ipynb) **PyTorch Basics** — tensors, autograd, a small neural network, the training loop | 45–55 min |
 
 **🏆 Capstone**
 
 | # | Notebook | Time |
 |---|----------|------|
-| 14 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course/blob/main/02_advanced_self_learning/14_capstone_project.ipynb) **Capstone Project** — a full end-to-end analysis | 60–90 min |
+| 14 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/14_capstone_project.ipynb) **Capstone Project** — a full end-to-end analysis | 60–90 min |
 
 👉 Track overview and learning path: [`02_advanced_self_learning/README.md`](02_advanced_self_learning/README.md)
 
@@ -154,8 +154,8 @@ Click any of the **Open in Colab** badges above. Sign in with a Google account. 
 
 ```bash
 # clone the repo
-git clone https://github.com/BridgingAISocietySummerSchools/Data-Science-AI-Python-Course.git
-cd Data-Science-AI-Python-Course
+git clone https://github.com/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop.git
+cd Python-for-Data-Science-Workshop
 
 # either: one-shot setup script
 ./setup.sh
@@ -172,7 +172,7 @@ Start with `01_introduction/01_welcome_to_python.ipynb`, or jump into Track 2 if
 ## 🗂️ Repository layout
 
 ```
-📁 Data-Science-AI-Python-Course/
+📁 Python-for-Data-Science-Workshop/
 ├── 📁 01_introduction/                     # Track 1 — 90-minute live session
 │   ├── 📄 README.md                        #   Session plan + instructor notes
 │   ├── 📓 01_welcome_to_python.ipynb
@@ -250,6 +250,6 @@ MIT — see [LICENSE](LICENSE).
 
 **Made with ❤️ for the [Bridging AI & Society Summer Schools](https://bridgingaiandsociety.org)**
 
-[⬆ Back to top](#learn-python-a-course-designed-for-data-science-and-ai)
+[⬆ Back to top](#python-for-data-science-workshop)
 
 </div>

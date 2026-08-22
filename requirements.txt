@@ -13,8 +13,9 @@ scipy>=1.10
 
 # Visualisation
 matplotlib>=3.7
+# Optional extras — no notebook requires them, but handy for your own work:
 seaborn>=0.12
-plotly>=5.0   # optional, used in some examples
+plotly>=5.0
 
 # Machine learning
 scikit-learn>=1.3

@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Setup script for Python Data Science Course
+# Setup script for the Python for Data Science Workshop
 # Enhanced version with error handling and system checks
 
 set -e  # Exit on any error
 
-echo "🐍 Python Data Science Course Environment Setup"
+echo "🐍 Python for Data Science Workshop — Environment Setup"
 echo "=============================================="
 echo ""
 

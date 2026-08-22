@@ -1,6 +1,6 @@
-# Contributing to Python Data Science Course 🤝
+# Contributing to the Python for Data Science Workshop 🤝
 
-We welcome contributions to make this course even better! Here's how you can help:
+We welcome contributions to make this workshop even better! Here's how you can help:
 
 ## 📋 Types of Contributions
 
@@ -31,8 +31,8 @@ We welcome contributions to make this course even better! Here's how you can hel
 1. **Fork the repository**
    ```bash
    # Click the "Fork" button on GitHub, then clone your fork
-   git clone https://github.com/YOUR_USERNAME/Data-Science-AI-Python-Course.git
-   cd Data-Science-AI-Python-Course
+   git clone https://github.com/YOUR_USERNAME/Python-for-Data-Science-Workshop.git
+   cd Python-for-Data-Science-Workshop
    ```
 
 2. **Set up virtual environment**
