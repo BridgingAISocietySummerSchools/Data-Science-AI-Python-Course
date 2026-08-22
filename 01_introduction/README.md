@@ -30,6 +30,7 @@ The timings include the built-in **"🎯 Try it (1–2 min)"** micro-exercises a
 
 - **Live-coding beats slides.** Project the notebook and type along with the group; participants run each cell themselves.
 - **The Shift+Enter moment matters.** Spend the first minutes making sure *everyone* has executed a cell successfully — the rest of the session depends on it.
+- **Have everyone save a copy first.** Colab opens notebooks read-only from GitHub. Ask participants to click **File → Save a copy in Drive** right at the start so their edits and exercise solutions persist. (Each notebook also carries its own *Open in Colab* badge in the first cell.)
 - **Use the discussion prompts.** Thirty seconds of pair discussion ("where do you encounter data like this in your field?") re-engages non-technical participants and ties the session to the summer school's AI & society theme.
 - **Don't chase completeness.** `while` loops, slicing, dictionaries in depth, error handling — all of it deliberately lives in the [Advanced & Self-Learning track](../02_advanced_self_learning/). The session's goal is confidence, not coverage.
 - **Solutions are built in.** Every exercise has a collapsed solution, so participants who fall behind can catch up on their own.

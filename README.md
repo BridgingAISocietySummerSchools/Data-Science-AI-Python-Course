@@ -90,6 +90,17 @@ Ten notebooks that build on the introduction session and take you all the way to
 
 ---
 
+## ☁️ Working in Google Colab
+
+Every notebook is **fully Colab-ready**: no installation, no downloads, no local files — all data is generated inside the notebooks, and every library used comes pre-installed in Colab.
+
+- **Open**: click any *Open in Colab* badge in this README, in the track READMEs, or in the **first cell of every notebook**.
+- **Save your work**: Colab opens the notebook read-only from GitHub. To keep your changes and solutions, click **File → Save a copy in Drive** once at the start — you'll then work in your own copy.
+- **Run everything**: **Runtime → Run all** works in every notebook — no cell raises an error (even the *"Debug me 🐞"* exercises are safely commented out until you deliberately uncomment them).
+- **Start fresh**: if things get into a weird state, **Runtime → Restart session and run all** gives you a clean slate.
+
+---
+
 ## 🎯 Who this course is for
 
 Designed for **complete beginners** who want to use Python specifically for data science, machine learning, and analytical work — not generic application development.

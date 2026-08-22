@@ -25,6 +25,11 @@ Restructured the course into **two tracks** for the Bridging AI & Society Summer
   and "💬 Discuss" prompts connecting code to AI & society questions.
 - Per-track `README.md` files: a session plan with timings and instructor notes for
   the introduction, and a learning-path overview for the advanced track.
+- **"Open in Colab" badge in the first cell of every notebook**, plus a
+  "Working in Google Colab" guide in the root README (save-a-copy-in-Drive,
+  Run-all, restart tips).
+- **Colab "Run all" safety**: no notebook cell raises an uncaught error —
+  intentional "Debug me 🐞" bugs are commented out until deliberately uncommented.
 
 ### Changed 🔄
 - The ten existing notebooks moved to **`02_advanced_self_learning/`** — the

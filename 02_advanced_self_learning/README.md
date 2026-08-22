@@ -6,7 +6,9 @@ It is designed for **self-study after the live [Introduction Session](../01_intr
 
 ## 📓 The notebooks
 
-Work through them **in order** — each notebook assumes you've internalised the previous ones. Every badge opens the notebook in Google Colab with zero setup.
+Work through them **in order** — each notebook assumes you've internalised the previous ones. Every badge opens the notebook in Google Colab with zero setup (each notebook also carries its own badge in the first cell).
+
+> ☁️ **Colab tip:** notebooks open read-only from GitHub — click **File → Save a copy in Drive** once at the start so your exercise solutions persist. **Runtime → Run all** works in every notebook.
 
 ### 🧱 Python Fundamentals
 
