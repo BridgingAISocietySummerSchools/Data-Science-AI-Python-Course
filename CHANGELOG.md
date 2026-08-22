@@ -13,6 +13,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Contributing guidelines
 - MIT License
 
+## [4.0.0] - 2026-08-22
+
+Restructured the course into **two tracks** for the Bridging AI & Society Summer Schools.
+
+### Added ✨
+- **`01_introduction/`** — a new 90-minute, instructor-led **Introduction Session** for
+  complete beginners, with three purpose-built notebooks:
+  `01_welcome_to_python.ipynb`, `02_control_flow_essentials.ipynb`,
+  `03_first_data_analysis.ipynb`. Includes live-session "🎯 Try it" micro-exercises
+  and "💬 Discuss" prompts connecting code to AI & society questions.
+- Per-track `README.md` files: a session plan with timings and instructor notes for
+  the introduction, and a learning-path overview for the advanced track.
+
+### Changed 🔄
+- The ten existing notebooks moved to **`02_advanced_self_learning/`** — the
+  self-paced **Advanced & Self-Learning** track (filenames unchanged).
+- Every advanced notebook received a refinement pass: track naming in headers,
+  corrected next-step pointers, typo/factual fixes, deprecation checks, and a
+  verified top-to-bottom execution.
+- Root `README.md` rewritten around the two-track structure, with summer-school
+  framing and updated Colab links.
+
+### Removed 🗑️
+- Outdated meta-documents superseded by the new structure:
+  `Course Enhancement Summary.md`, `Python for Data Science - 3 Hour Beginner Course.md`,
+  `README_COMPREHENSIVE.md` (all recoverable from git history).
+
 ## [3.0.0] - 2026-05-13
 
 A **complete elevation pass** focusing on didactic quality, technical robustness,

@@ -134,7 +134,7 @@ Before submitting, please:
 
 1. **Run all notebooks**
    ```bash
-   jupyter nbconvert --to notebook --execute *.ipynb
+   jupyter nbconvert --to notebook --execute 01_introduction/*.ipynb 02_advanced_self_learning/*.ipynb
    ```
 
 2. **Check code quality**

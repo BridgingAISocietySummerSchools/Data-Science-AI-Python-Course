@@ -209,7 +209,7 @@ print_status "Next Steps:"
 echo "  1. Activate the environment: ${GREEN}source venv/bin/activate${NC}"
 echo "  2. Start Jupyter notebook: ${GREEN}jupyter notebook${NC}"
 echo "  3. Select kernel: ${GREEN}Python (Data Science Course)${NC}"
-echo "  4. Open: ${GREEN}01_python_basics.ipynb${NC}"
+echo "  4. Open: ${GREEN}01_introduction/01_welcome_to_python.ipynb${NC}"
 echo ""
 
 print_status "Useful Commands:"
