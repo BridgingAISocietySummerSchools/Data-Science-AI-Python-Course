@@ -35,7 +35,7 @@ After this Python course, the natural next step is the [Hands-On-Notebooks](http
 | Track | Format | Duration | Purpose |
 |-------|--------|----------|---------|
 | **[1 — Introduction Session](01_introduction/)** | Live, instructor-led | **90 minutes** (incl. questions) | The **minimum common foundation** — a guided tour of the whole Python/Data-Science ecosystem |
-| **[2 — Advanced & Self-Learning](02_advanced_self_learning/)** | Self-paced | **~10–13 hours** | The **depth** — every Track 1 topic in detail, then cleaning, EDA, machine learning, and PyTorch |
+| **[2 — Advanced & Self-Learning](02_advanced_self_learning/)** | Self-paced | **~11–13 hours** | The **depth** — every Track 1 topic in detail, then cleaning, EDA, machine learning, and PyTorch |
 
 The design principle: **Track 1 establishes the foundation, Track 2 provides the depth.** Track 1 deliberately stops short of detail so it genuinely fits 90 minutes with room for discussion; Track 2 revisits each topic properly and keeps going.
 
@@ -64,17 +64,17 @@ Fourteen notebooks that build directly on Track 1 and go substantially deeper.
 | 1 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/01_python_basics.ipynb) **Python Basics** — types, conversion pitfalls, rounding, float precision | 30–35 min |
 | 2 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/02_control_structures.ipynb) **Control Structures** — loops in depth, convergence, `break/continue`, `try/except` | 35–40 min |
 | 3 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/03_lists_data_structures.ipynb) **Lists and Sequences** — slicing, comprehensions, `zip`, tuples, aliasing | 30–40 min |
-| 4 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/04_dictionaries_advanced.ipynb) **Dictionaries and Nested Data** — nested structures, counting, JSON | 30–35 min |
+| 4 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/04_dictionaries_advanced.ipynb) **Dictionaries and Nested Data** — nested structures, counting, JSON | 35–45 min |
 | 5 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/05_functions_and_modules.ipynb) **Functions and Modules** — `return` vs `print`, `*args`/`**kwargs`, scope, imports | 35–40 min |
 
 **🧰 Data Science Toolkit**
 
 | # | Notebook | Time |
 |---|----------|------|
-| 6 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/06_numpy_fundamentals.ipynb) **NumPy Fundamentals** — arrays, vectorisation, broadcasting, axes | 30–40 min |
-| 7 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/07_pandas_essentials.ipynb) **Pandas Essentials** — `loc`/`iloc`, boolean masks, `groupby` | 30–40 min |
+| 6 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/06_numpy_fundamentals.ipynb) **NumPy Fundamentals** — arrays, vectorisation, broadcasting, axes | 45–55 min |
+| 7 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/07_pandas_essentials.ipynb) **Pandas Essentials** — `loc`/`iloc`, boolean masks, `groupby` | 45–55 min |
 | 8 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/08_data_cleaning_preprocessing.ipynb) **Data Cleaning and Preprocessing** — missing values, dtypes, duplicates, outliers, scaling, encoding | 45–55 min |
-| 9 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/09_visualization_matplotlib.ipynb) **Visualisation with Matplotlib** — Figure/Axes, choosing the right chart, subplots | 35–45 min |
+| 9 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/09_visualization_matplotlib.ipynb) **Visualisation with Matplotlib** — Figure/Axes, choosing the right chart, subplots | 50–60 min |
 | 10 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/10_exploratory_data_analysis.ipynb) **Exploratory Data Analysis** — the EDA workflow on a real dataset | 50–60 min |
 
 **🤖 Machine Learning & Deep Learning**
@@ -82,14 +82,14 @@ Fourteen notebooks that build directly on Track 1 and go substantially deeper.
 | # | Notebook | Time |
 |---|----------|------|
 | 11 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/11_machine_learning_basics.ipynb) **Machine Learning Basics** — supervised vs unsupervised, features/target, train/test, evaluation, overfitting | 45–55 min |
-| 12 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/12_scikit_learn_workflow.ipynb) **The Scikit-Learn Workflow** — classification, regression, pipelines, `GridSearchCV` | 60–75 min |
-| 13 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/13_pytorch_basics.ipynb) **PyTorch Basics** — tensors, autograd, a small neural network, the training loop | 45–55 min |
+| 12 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/12_scikit_learn_workflow.ipynb) **The Scikit-Learn Workflow** — classification, regression, pipelines, `GridSearchCV` | 70–85 min |
+| 13 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/13_pytorch_basics.ipynb) **PyTorch Basics** — tensors, autograd, a small neural network, the training loop | 50–60 min |
 
 **🏆 Capstone**
 
 | # | Notebook | Time |
 |---|----------|------|
-| 14 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/14_capstone_project.ipynb) **Capstone Project** — a full end-to-end analysis | 60–90 min |
+| 14 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BridgingAISocietySummerSchools/Python-for-Data-Science-Workshop/blob/main/02_advanced_self_learning/14_capstone_project.ipynb) **Capstone Project** — a full end-to-end analysis | 75–105 min |
 
 👉 Track overview and learning path: [`02_advanced_self_learning/README.md`](02_advanced_self_learning/README.md)
 
