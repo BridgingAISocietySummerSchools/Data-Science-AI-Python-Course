@@ -1,10 +1,16 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BridgingAISocietySummerSchools/.github/main/assets/logo-lockup-on-dark.svg">
+  <img src="https://raw.githubusercontent.com/BridgingAISocietySummerSchools/.github/main/assets/logo-lockup.svg" alt="Bridging AI & Society Summer Schools" width="360">
+</picture>
+
 # Learn Python: A Course Designed for Data Science and AI
 
-[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://python.org)
-[![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange)](https://jupyter.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Difficulty](https://img.shields.io/badge/level-beginner%20%E2%86%92%20intermediate-success)](#-course-structure-two-tracks)
-[![Focus](https://img.shields.io/badge/focus-data%20science%20%26%20ML-blueviolet)](#-what-makes-this-course-different)
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-416bcc)](https://python.org)
+[![Jupyter](https://img.shields.io/badge/jupyter-notebook-416bcc)](https://jupyter.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-416bcc.svg)](LICENSE)
+[![Difficulty](https://img.shields.io/badge/level-beginner%20%E2%86%92%20intermediate-416bcc)](#%EF%B8%8F-course-structure-two-tracks)
+[![Summer School](https://img.shields.io/badge/Bridging%20AI%20%26%20Society-Summer%20Schools-1c2025)](https://bridgingaiandsociety.org)
+[![Focus](https://img.shields.io/badge/focus-data%20science%20%26%20ML-416bcc)](#-what-makes-this-course-different)
 
 > **The official Python course of the [Bridging AI & Society Summer Schools](https://github.com/BridgingAISocietySummerSchools).**
 > From *"What's a variable?"* to building, evaluating, and interpreting your own ML models — in two tracks: a **90-minute live introduction session** and a **self-paced advanced track**.
@@ -13,7 +19,7 @@
 
 ## 🌍 Part of the Bridging AI & Society Summer Schools
 
-This course is one building block of the [Bridging AI & Society Summer Schools](https://github.com/BridgingAISocietySummerSchools) — open, interdisciplinary teaching materials that connect the technical foundations of machine learning with the societal implications of AI. Participants come from many academic backgrounds, and **no coding experience is assumed**.
+This course is one building block of the [Bridging AI & Society Summer Schools](https://bridgingaiandsociety.org) ([GitHub](https://github.com/BridgingAISocietySummerSchools)) — open, interdisciplinary teaching materials that connect the technical foundations of machine learning with the societal implications of AI. Participants come from many academic backgrounds, and **no coding experience is assumed**.
 
 The materials follow three principles:
 
