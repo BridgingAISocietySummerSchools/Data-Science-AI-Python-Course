@@ -1,5 +1,9 @@
 # Python for Data Science - Quick Reference Cheat Sheet
 
+> Quick syntax reference for both tracks of the course. If you are looking for the
+> teaching material itself: [Track 1 — Introduction Session](01_introduction/) ·
+> [Track 2 — Advanced & Self-Learning](02_advanced_self_learning/).
+
 ## 🐍 Essential Python Patterns for Data Science
 
 ### 1. Data Import and Setup
@@ -8,12 +12,18 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Set display options
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
-plt.style.use('seaborn-v0_8')
+
+# --- Bridging AI & Society course plot style -------------------------------
+BAS_BLUE = "#416bcc"   # brand accent (lapis blue) — primary series
+BAS_INK  = "#1c2025"   # brand ink — text/edges
+BAS_AMBER, BAS_GREEN, BAS_RED = "#d9822b", "#3a9e6e", "#c8504f"
+BAS_PURPLE, BAS_GREY = "#7a5fb5", "#8a919c"
+BAS_PALETTE = [BAS_BLUE, BAS_AMBER, BAS_GREEN, BAS_RED, BAS_PURPLE, BAS_GREY]
+plt.rcParams["axes.prop_cycle"] = plt.cycler(color=BAS_PALETTE)
 ```
 
 ### 2. Loading Data

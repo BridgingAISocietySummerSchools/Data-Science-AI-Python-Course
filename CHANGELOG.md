@@ -13,6 +13,54 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Contributing guidelines
 - MIT License
 
+## [5.0.0] - 2026-08-22
+
+A **curriculum restructure**: the two tracks are now clearly differentiated by purpose —
+Track 1 is the *minimum common foundation* taught live in 90 minutes, Track 2 is the
+*depth*, extended into machine learning and deep learning.
+
+### Added ✨
+- **Track 1 is now a five-notebook guided tour** of the whole Python/Data-Science
+  ecosystem, sized honestly for a 90-minute session including questions:
+  `01_welcome_to_python` (~15 min) → `02_data_structures` (~18 min) →
+  `03_control_flow` (~12 min) → `04_functions` (~12 min) → `05_pandas_intro` (~18 min).
+  Two of these are new: **`02_data_structures.ipynb`** (lists, tuples, dictionaries,
+  and the list-of-dicts "table" shape) and **`04_functions.ipynb`** (functions as their
+  own topic, motivated by felt copy-paste pain).
+- **Four new Track 2 notebooks**, filling the real gaps in the arc:
+  - `08_data_cleaning_preprocessing.ipynb` — missing values, dtypes, duplicates,
+    inconsistent categories, outliers, scaling and encoding.
+  - `10_exploratory_data_analysis.ipynb` — the EDA workflow on a real bundled dataset.
+  - `11_machine_learning_basics.ipynb` — the conceptual on-ramp: supervised vs
+    unsupervised, features/target, train/test, the workflow loop, evaluation metrics,
+    and overfitting demonstrated with train/test score curves.
+  - `13_pytorch_basics.ipynb` — tensors, autograd, a small neural network, and the
+    training loop written by hand.
+- **"🔗 Building on Track 1" notes** in every Track 2 notebook whose topic appears in
+  the live session, stating what is recap and what is new — so returning students can
+  skip ahead and cold starters know they are not missing a prerequisite.
+- `torch >= 2.0` added to `requirements.txt` (Track 2 notebook 13 only; preinstalled
+  in Google Colab).
+
+### Changed 🔄
+- **Track 1 rebalanced.** `01_welcome_to_python` was cut from ~35 to ~15 minutes (lists
+  moved to the new data-structures notebook); `02_control_flow_essentials` became
+  `03_control_flow.ipynb` — functions moved out into their own notebook and `while`
+  loops were added; `03_first_data_analysis` became `05_pandas_intro.ipynb`, gaining
+  `pd.read_csv()`, `.shape`/`.info()` inspection and a computed column.
+- **Track 2 renumbered into a logical progression** (14 notebooks). Functions now come
+  before NumPy and pandas; pandas is followed immediately by cleaning, visualisation
+  and EDA; the ML concepts notebook precedes the practical scikit-learn workflow:
+  `05_pandas_preview` → `07_pandas_essentials`, `06_functions_modules` →
+  `05_functions_and_modules`, `07_numpy_fundamentals` → `06_numpy_fundamentals`,
+  `08_matplotlib_basics` → `09_visualization_matplotlib`, `09_scikit_learn_basics` →
+  `12_scikit_learn_workflow`, `10_capstone_project` → `14_capstone_project`.
+- `12_scikit_learn_workflow` repositioned as the *practical workflow* notebook now that
+  the concepts live in notebook 11.
+- All READMEs rewritten around the two-track design principle, with Colab badges for
+  all 19 notebooks and the summer-school brand applied (lapis-blue `#416bcc` accent,
+  logo lockup with light/dark cuts).
+
 ## [4.0.0] - 2026-08-22
 
 Restructured the course into **two tracks** for the Bridging AI & Society Summer Schools.

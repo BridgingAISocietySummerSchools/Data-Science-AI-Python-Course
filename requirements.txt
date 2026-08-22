@@ -18,3 +18,6 @@ plotly>=5.0   # optional, used in some examples
 
 # Machine learning
 scikit-learn>=1.3
+
+# Deep learning (Track 2, notebook 13 only — already installed in Google Colab)
+torch>=2.0
