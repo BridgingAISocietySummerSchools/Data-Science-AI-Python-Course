@@ -126,6 +126,31 @@ ax.set_xlabel('X Label')
 ax.set_ylabel('Y Label')
 ax.set_title('What the reader should take away')
 plt.show()
+
+# Seaborn — statistical charts straight from a DataFrame (notebook 10)
+import seaborn as sns
+sns.set_theme(style='whitegrid', palette=BAS_PALETTE)   # once, at the top
+
+# Axes-level: takes ax=, returns the Axes, fits into a layout you built
+sns.histplot(data=df, x='value', hue='group', ax=ax)    # distribution
+sns.ecdfplot(data=df, x='value', hue='group')           # cumulative — for thresholds
+sns.scatterplot(data=df, x='a', y='b', hue='group')     # relationship
+sns.regplot(data=df, x='a', y='b')                      # + fitted line and CI
+sns.boxplot(data=df, x='value', y='category', saturation=1)      # comparison
+sns.barplot(data=df, x='value', y='category', errorbar='sd')     # MEAN + spread
+sns.heatmap(df.pivot_table(index='r', columns='c', values='v'),  # matrix
+            annot=True, cmap='rocket_r')                         # sequential
+sns.heatmap(df.corr(), cmap='vlag', center=0, vmin=-1, vmax=1)   # diverging
+
+# Figure-level: owns its figure (height/aspect, not figsize), facets, returns a grid
+g = sns.relplot(data=df, x='a', y='b', hue='group', col='category',
+                kind='line', col_wrap=3, height=3, aspect=1.2)
+g.set_axis_labels('A', 'B')
+g.set_titles('{col_name}')
+g.figure.suptitle('The finding, stated', y=1.03)
+
+# Long data or nothing: one row per observation, one column per variable
+long = wide.reset_index().melt(id_vars='month', var_name='city', value_name='value')
 ```
 
 ### 9. Statistical Analysis

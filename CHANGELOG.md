@@ -13,6 +13,47 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Contributing guidelines
 - MIT License
 
+## [5.1.0] - 2026-08-24
+
+**Seaborn joins the course.** Visualisation was the one part of the toolkit taught with
+only half its standard library: matplotlib in depth, and seaborn — which most working
+analysts reach for first — not at all.
+
+### Added ✨
+- **`01_introduction/06_seaborn_intro.ipynb`** — a ~10-minute **optional bonus** notebook
+  for Track 1: the Notebook-5 chart redrawn in one seaborn line, `hue=` for colour by
+  category, and the honest note that a categorical bar chart quietly averages your data.
+  Self-contained (it rebuilds the countries table), so it can be run live by a group that
+  is ahead of schedule or at home by everyone else. The 90-minute session plan is
+  unchanged — the bonus sits deliberately outside the time budget.
+- **`02_advanced_self_learning/10_visualization_seaborn.ipynb`** — a full 50–60 minute
+  notebook: long ("tidy") data and `melt`, axes-level versus figure-level functions, the
+  `displot`/`relplot`/`catplot`/`lmplot` families, distributions (hist / KDE / ECDF),
+  the categorical plots and what each one hides, faceting with `col=`/`row=`, heatmaps
+  from `pivot_table`, `pairplot`, categorical/sequential/diverging palettes and colour
+  blindness, dropping back into matplotlib to annotate and save, twelve common pitfalls,
+  and when *not* to use seaborn. Five exercises (including a *"Debug me 🐞"*) and a
+  bonus mini-project, all with full solutions. Runs offline: the 960-row air-quality
+  dataset is generated in the notebook, not downloaded, so the mechanisms written into
+  the generator can be checked against what the charts claim.
+- A **seaborn quick-reference block** in `Python Data Science Cheat Sheet.md`.
+
+### Changed 🔄
+- **Track 2 renumbered from 14 to 15 notebooks** to give seaborn its place directly after
+  matplotlib: `10_exploratory_data_analysis` → `11_exploratory_data_analysis`,
+  `11_machine_learning_basics` → `12_machine_learning_basics`,
+  `12_scikit_learn_workflow` → `13_scikit_learn_workflow`,
+  `13_pytorch_basics` → `14_pytorch_basics`,
+  `14_capstone_project` → `15_capstone_project`. Every cross-reference, prerequisite list,
+  previous/next link, exercise number and Colab badge was updated to match.
+- `09_visualization_matplotlib` now hands off to the seaborn notebook, and
+  `11_exploratory_data_analysis` lists it as an optional prerequisite.
+- `05_pandas_intro` points at the new bonus notebook from its closing section.
+- `seaborn >= 0.12` moved from "optional extra" to a required dependency in
+  `requirements.txt` (preinstalled in Google Colab, so Track 1 and Track 2 still need no
+  installation there).
+- READMEs updated throughout: 21 notebooks, Track 2 now ~12–14 hours.
+
 ## [5.0.0] - 2026-08-22
 
 A **curriculum restructure**: the two tracks are now clearly differentiated by purpose —
